@@ -20,7 +20,7 @@ def client_program():
         client_socket.send(message.encode())  
         data = client_socket.recv(1024).decode()  
     
-        print('Received from server:', data)  
+        print('Received from server cihuyy:', data)  
         
         message = input("Enter another message: ")  
     
