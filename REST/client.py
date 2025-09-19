@@ -10,7 +10,7 @@ import requests
 import argparse
 import sys
 
-BASE = 'http://rest-server:5151'
+BASE = 'http://rest-server:5150'
 
 def call(endpoint, a, b):
     try:

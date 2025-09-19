@@ -43,4 +43,4 @@ def mul_numbers():
 # Jalankan server di port 5000
 if __name__ == '__main__':
     # Bind to 0.0.0.0 so container port mapping works externally
-    app.run(debug=True, host='0.0.0.0', port=5151)
+    app.run(debug=True, host='0.0.0.0', port=5150)
