@@ -68,6 +68,7 @@ docker compose -f compose/soap.yml exec soap-client python client.py
 ```
 
 ### MQTT (internal broker service)
+https://github.com/aryobagus-RAZ/dist_sys/tree/main/MQTT
 ```bash
 docker compose -f compose/mqtt.yml up -d
 # Start subscriber (listens on topic)
