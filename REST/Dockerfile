@@ -5,5 +5,5 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 COPY REST/requirements.txt ./requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 COPY REST/ /app/
-EXPOSE 5151
+EXPOSE 5101
 CMD ["tail", "-f", "/dev/null"]
