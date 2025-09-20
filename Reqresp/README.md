@@ -53,6 +53,7 @@ menghasilkan
 ![alt text](img/image8.png)
 
 pada file `.pcap`
+
 ![alt text](img/image9.png)
 
 Perbedaan
