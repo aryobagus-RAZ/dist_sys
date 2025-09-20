@@ -37,9 +37,13 @@ client akan mengakses service rest-server pada `port 5150`  -> Mengirim request 
 ![alt text](img/image4.png)
 ### 5. Sebelum melakukan pengujian jalankan 
 `sudo tcpdump -nvi br-(sesuaikan) -w (namafile).pcap`
+<br>
+
 ![alt text](img/image5.png)
+
 ### 6. pada bagian client masukkan pesan pesan yang nantinya akan diterima di server
 ![alt text](img/image6.png)
+
 ### 7. Setelah itu anda dapat memonitor pada file .pcap
 ![alt text](img/image7.png)
 ![alt text](img/image8.png)
